@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="300" viewBox="0 0 400 300">
+<desc>status help</desc>
+<defs>
+</defs>
+
+<g>
+<!-- <rect style="fill: rgb(0, 80, 90);" x="0" y="0" width="400" height="300"/> -->
+</g>
+
+<g transform="translate(200, 120) scale(0.6)">
+<!-- cross -->
+<g transform="translate(-80, 0)">
+<g transform="rotate(45)">
+<rect style="stroke-width: 1; fill: rgb(200,200,200);" x="-2" y="-14" width="4" height="28" />
+</g>
+<g transform="rotate(-45)">
+<rect style="stroke-width: 1; fill: rgb(200,200,200);" x="-2" y="-14" width="4" height="28" />
+</g>
+<circle r="20" cx="0" cy="0" fill="none" style="stroke: rgb(200,200,200);" stroke-width="3" />
+<path fill="none" style="stroke-width: 2; stroke: rgb(255, 255, 0);" d="M -20 -20 l -15 -15 l -110 0"/>
+<text font-family="sans-serif" font-size="16" style="fill: rgb(72, 255, 246);">
+<tspan x="-150" y="-50">c++live.bat/sh not found</tspan>
+</text>
+</g>
+<!-- text -->
+<text font-family="sans-serif" font-size="30" style="fill: rgb(200, 200, 200);">
+<tspan x="-55" y="10">C++Live</tspan>
+</text>
+<!-- pause -->
+<g transform="translate(80, 0)">
+<g transform="translate(-8,0)">
+<rect style="stroke-width: 1; fill: rgb(200,200,200);" x="-3" y="-17" width="6" height="34" />
+</g>
+<g transform="translate(8,0)">
+<rect style="stroke-width: 1; fill: rgb(200,200,200);" x="-3" y="-17" width="6" height="34" />
+</g>
+<path fill="none" style="stroke-width: 2; stroke: rgb(255, 255, 0);" d="M 20 -20 l 15 -15 l 110 0"/>
+<text font-family="sans-serif" font-size="16" style="fill: rgb(72, 255, 246);">
+<tspan x="-5" y="-50">paused, click to activate</tspan>
+</text>
+</g>
+</g>
+
+<g transform="translate(200, 180) scale(0.6)">
+<!-- ok -->
+<g transform="translate(-80, 0)">
+<g transform="translate(-8,8) rotate(-45)">
+<rect style="stroke-width: 1; fill: rgb(200,200,200);" x="0" y="-12" width="4" height="19" />
+</g>
+<g transform="translate(10,-3) rotate(45)">
+<rect style="stroke-width: 1; fill: rgb(200,200,200);" x="-2" y="-5" width="4" height="25" />
+</g>
+<circle r="20" cx="0" cy="0" fill="none" style="stroke: rgb(200,200,200);" stroke-width="3" />
+<path fill="none" style="stroke-width: 2; stroke: rgb(255, 255, 0);" d="M -20 20 l -15 15 l -110 0"/>
+<text font-family="sans-serif" font-size="16" style="fill: rgb(72, 255, 246);">
+<tspan x="-150" y="55">c++live.bat/sh found</tspan>
+</text>
+</g>
+<!-- text -->
+<text font-family="sans-serif" font-size="30" style="fill: rgb(200, 200, 200);">
+<tspan x="-55" y="10">C++Live</tspan>
+</text>
+<!-- play -->
+<g transform="translate(80, 0)">
+<polygon style="stroke: rgb(200,200,200); stroke-width: 2; fill: none;" vector-effect="non-scaling-stroke" points="-8,-17 16,0 -8,17" />
+<path fill="none" style="stroke-width: 2; stroke: rgb(255, 255, 0);" d="M 20 20 l 15 15 l 110 0"/>
+<text font-family="sans-serif" font-size="16" style="fill: rgb(72, 255, 246);">
+<tspan x="-5" y="55">active, click to pause</tspan>
+</text>
+</g>
+</g>
+
+</svg>

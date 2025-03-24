@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="128" height="128" viewbox="0 0 128 128">
+
+    <rect x="0" y="45" rx="10" ry="10" width="115" height="34" fill="#ffffff" />
+
+    <text fill="#000000" stroke-opacity="0" font-family="Microsoft Sans Serif" font-size="26" text-anchor="middle" y="50%" dy=".3em">
+        <tspan x="55">C++Live</tspan>
+    </text>
+
+    <rect x="107" y="72" rx="0" ry="0" width="15" height="5" fill="#600000" />
+    <rect x="105" y="70" rx="0" ry="0" width="15" height="5" fill="#ff0000" />
+</svg>
